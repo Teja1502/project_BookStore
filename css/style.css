@@ -1,0 +1,97 @@
+/* css stylesheet for books api PROJECT
+  author: Jorge L. jlvazquez
+  date: 2/24/2019
+*/
+
+body {
+  /* background-color: #76a9e0; */
+  background-image: url("../img/online-book-store-management.png");
+  background-color: #017199;
+  /* Full height */
+  height: 100%;
+  /* Center and scale the image nicely */
+  /* background-position: center; */
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+/* .center {
+  margin: auto;
+  margin-top: 200px;
+} */
+
+.navbar {
+  margin-bottom: 20px;
+  background-color: gray;
+}
+
+
+.navbar .navbar-nav {
+  margin-left: 50%;
+}
+
+.navbar .navbar-nav .nav-item {
+  padding-right: 20px;
+}
+
+#header {
+  font-family: 'Righteous', sans-serif;
+  font-size: 3rem;
+}
+
+h2 {
+  font-family: 'Righteous', sans-serif;
+}
+
+.book-list {
+  margin-top: 50px;
+  visibility: hidden;
+}
+
+.container {
+  margin-top: 20px;
+  margin-left: 10px;
+  margin-right: 50px;
+}
+
+.cat-grp {
+  background-color: #e9ecef; /* Background color for categories list */
+  padding: 15px;
+  border-radius: 8px;
+}
+
+#li-grp {
+  list-style-type: none;
+  padding: 0;
+}
+
+#li-grp li {
+  margin-bottom: 10px;
+}
+
+#li-grp a {
+  text-decoration: none;
+  color: #007bff; /* Link color for categories */
+  font-weight: bold;
+}
+
+#li-grp a:hover {
+  text-decoration: underline;
+}
+
+/* Add this CSS for search bar and button alignment */
+#input {
+  display: flex;
+  align-items: flex-start;
+}
+
+#search-box {
+  border-top-right-radius: 0;
+  border-bottom-right-radius: 0;
+}
+
+#search {
+  border-top-left-radius: 0;
+  border-bottom-left-radius: 0;
+  margin-bottom: 0; /* Align with the bottom of the search box */
+}
